@@ -24,7 +24,7 @@
 }
 
 /* #region debug */
-.debug, div, section{
+.debug *{
     border: 1px dashed black;
 }
 
@@ -59,14 +59,16 @@
 /* #endregion header */
 /* #region main */
 .m-flex{
-    display: flex;
     height: 1000px;
+    flex-wrap: wrap 
+
 }
+/* #region first part main */
 .bg-dblue{
     background-color: var(--dark-blue);
     height: 40%;
     width: 100%;
-    padding: 30px
+    padding: 30px;
 }
 .first-section{
     background-color: var(--pink);
@@ -74,6 +76,31 @@
     width: 60%;
     margin: auto;
 }
-   
+/* #endregion first part main */
+ /* #region second part main */
+ .bg-white{
+    display: flex;
+    background-color: rgb(0, 204, 255);
+    padding: 30px;
+    height: 50%;
+    width: 100%;
     
-
+}  
+.second-section{
+    display: flex;
+    height: 100%;
+    width: 65%;
+    margin: auto;
+    background-color: #ffffff;
+}
+.lblue{
+    background-color: var(--light-blue);
+    width: 65%;
+    height: 100%;
+}
+.salmon{
+    background-color: var(--salmon);
+    height: 100%;
+    width: 35%;
+} */
+/* #endregion second part main */
