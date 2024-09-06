@@ -22,6 +22,20 @@
     box-sizing: border-box;
     font-size: 1.2rem;
 }
+.bg{
+    display: flex;
+    background-color: rgb(0, 204, 255);
+    padding: 30px;
+    height: 12%;
+    width: 100%;
+}
+.second-section, .third-section, .fourth-section, .fifth-section{
+    display: flex;
+    height: 100%;
+    width: 65%;
+    margin: auto;
+    background-color: #ffffff;
+}   
 
 /* #region debug */
 .debug *{
@@ -59,14 +73,21 @@
 /* #endregion header */
 /* #region main */
 .m-flex{
-    height: 1000px;
-    flex-wrap: wrap 
-
+    flex-wrap: wrap;
+    height: 4000px;
 }
-/* #region first part main */
-.bg-dblue{
+.bg{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    height: 12%;
+    width: 100%;
+    
+}
+/* #region first section */
+.dblue{
     background-color: var(--dark-blue);
-    height: 40%;
+    height: 10%;
     width: 100%;
     padding: 30px;
 }
@@ -77,22 +98,15 @@
     margin: auto;
 }
 /* #endregion first part main */
- /* #region second part main */
- .bg-white{
+ /* #region second section */
+ .white{
     display: flex;
-    background-color: rgb(0, 204, 255);
+    background-color: rgb(255, 255, 255);
     padding: 30px;
-    height: 50%;
+    height: 12%;
     width: 100%;
     
 }  
-.second-section{
-    display: flex;
-    height: 100%;
-    width: 65%;
-    margin: auto;
-    background-color: #ffffff;
-}
 .lblue{
     background-color: var(--light-blue);
     width: 65%;
@@ -102,5 +116,9 @@
     background-color: var(--salmon);
     height: 100%;
     width: 35%;
-} */
+}
+
 /* #endregion second part main */
+.lwood{
+    background-color: var(--light-wood)
+}
