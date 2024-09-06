@@ -1,0 +1,16 @@
+/* #region utilities */
+color palette{
+    --light-heavenly: #add8e6;
+    --orange: #daa520;
+    --dark-blue: #00008b;
+    --pink: #ee82ee;
+    --light-blue: #1e90ff;
+    --salmon:  #ffc0cb;
+    --light-wood: #d3d3d3;
+    --green: #228b22;
+    --black: #23272a;
+    --salmon-2: #f08080;
+    --acquamarine: #20b2aa;
+    --login: #eca9b3;
+    --bg-login: #7fffd4;
+}
