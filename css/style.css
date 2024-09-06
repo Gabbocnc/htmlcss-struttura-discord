@@ -1,5 +1,5 @@
-/* #region utilities */
-color palette{
+/* #region root */
+:root{
     --light-heavenly: #add8e6;
     --orange: #daa520;
     --dark-blue: #00008b;
@@ -14,3 +14,44 @@ color palette{
     --login: #eca9b3;
     --bg-login: #7fffd4;
 }
+/* #endregion root */
+/* #region common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+/* #region debug */
+.debug{
+    border: 1px dashed black;
+}
+/* #endregion debug */
+
+/* #region header */
+.bg-heavenly{
+    background-color: var(--light-heavenly);
+    display: flex;
+    height: 60px;
+}
+.h-flex{
+    margin: auto;
+    display: flex;
+    background: var(--orange); 
+    width: 70%;
+}
+.logo{
+    width: 25%;
+    padding-left: 0.5rem;
+}
+.link{
+    width: 50%;
+    text-align: center;
+}
+.login{
+    width: 25%;
+    text-align: end;
+    padding-right: 0.5rem;
+}
+/* #endregion header */
