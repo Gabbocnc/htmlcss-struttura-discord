@@ -36,7 +36,7 @@
     margin: auto;
     background-color: #ffffff;
 }   
-
+/* #endregion common */
 /* #region debug */
 .debug *{
     border: 1px dashed black;
@@ -74,7 +74,7 @@
 /* #region main */
 .m-flex{
     flex-wrap: wrap;
-    height: 4000px;
+    display: flex;
 }
 .bg{
     display: flex;
@@ -84,10 +84,11 @@
     width: 100%;
     
 }
+/* #endregion main */
 /* #region first section */
 .dblue{
     background-color: var(--dark-blue);
-    height: 10%;
+    height: 250px;
     width: 100%;
     padding: 30px;
 }
@@ -103,7 +104,7 @@
     display: flex;
     background-color: rgb(255, 255, 255);
     padding: 30px;
-    height: 12%;
+    height: 300px;
     width: 100%;
     
 }  
@@ -120,7 +121,11 @@
 
 /* #endregion second part main */
 .lwood{
-    background-color: var(--light-wood)
+    background-color: var(--light-wood);
+    display: flex;
+    padding: 30px;
+    height: 300px;
+    width: 100%;;
 }
 /* #region third section */
 .lblue2{
@@ -137,9 +142,9 @@
 /* #region fifth section */
 .lwood2{
     display: flex;
-    background-color: rgb(255, 0, 0);
+    background-color: var(--light-wood);
     padding: 30px;
-    height: 17%;
+    height: 500px;
     width: 100%;
 }
 .green{
@@ -148,3 +153,4 @@
     height: 100%;
 }
 /* #endregion fifth section */
+
