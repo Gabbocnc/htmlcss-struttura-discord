@@ -24,9 +24,11 @@
 }
 
 /* #region debug */
-.debug{
+.debug, div, section{
     border: 1px dashed black;
 }
+
+
 /* #endregion debug */
 
 /* #region header */
@@ -55,3 +57,23 @@
     padding-right: 0.5rem;
 }
 /* #endregion header */
+/* #region main */
+.m-flex{
+    display: flex;
+    height: 1000px;
+}
+.bg-dblue{
+    background-color: var(--dark-blue);
+    height: 40%;
+    width: 100%;
+    padding: 30px
+}
+.first-section{
+    background-color: var(--pink);
+    height: 100%;
+    width: 60%;
+    margin: auto;
+}
+   
+    
+
