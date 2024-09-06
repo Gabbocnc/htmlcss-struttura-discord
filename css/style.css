@@ -20,7 +20,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .bg{
     display: flex;
@@ -44,7 +44,6 @@
 
 
 /* #endregion debug */
-
 /* #region header */
 .bg-heavenly{
     background-color: var(--light-heavenly);
@@ -120,6 +119,7 @@
 }
 
 /* #endregion second part main */
+/* #region third section */
 .lwood{
     background-color: var(--light-wood);
     display: flex;
@@ -127,7 +127,6 @@
     height: 300px;
     width: 100%;;
 }
-/* #region third section */
 .lblue2{
     background-color: var(--light-blue);
     height: 100%;
@@ -153,10 +152,12 @@
     height: 100%;
 }
 /* #endregion fifth section */
+/* #region footer */
 .f-flex{
     display: flex;
-    height: 100%;
-    width: 100%;
+    flex-wrap: wrap;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    background-color: var(--black);
 } 
 .footer{
     background-color: var(--black);
@@ -164,6 +165,7 @@
     width: 100%;
     padding: 30px;
     justify-content: center;
+    border-bottom: 2px solid rgb(255, 0, 0);
 }
 .salmon3{
     background-color: var(--salmon-2);
@@ -173,3 +175,36 @@
     background-color: var(--acquamarine);
     width: 10%;
 }   
+.secondfooter{
+    height: 100%;
+    width: 62%;
+    margin: auto;
+    margin-top: 7px;
+}
+
+.sfooter{
+    background-color: var(--bg-login);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 7px;
+    height: 50px;
+}
+.second-logo, .button{
+    background-color: var(--login);
+    font-size: 15px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    margin-top: 3px;
+    border: 6px dashed #00000000;
+}
+.second-logo{
+    margin-left: -7px;
+}
+.button{
+    margin-right: -7px;
+
+}    
+/* #endregion footer */
