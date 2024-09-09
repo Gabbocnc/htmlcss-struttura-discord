@@ -1,11 +1,11 @@
 /* #region root */
-:root{
+:root {
     --light-heavenly: #add8e6;
     --orange: #daa520;
     --dark-blue: #00008b;
     --pink: #ee82ee;
     --light-blue: #1e90ff;
-    --salmon:  #ffc0cb;
+    --salmon: #ffc0cb;
     --light-wood: #d3d3d3;
     --green: #228b22;
     --black: #23272a;
@@ -14,175 +14,220 @@
     --login: #eca9b3;
     --bg-login: #7fffd4;
 }
+
 /* #endregion root */
 /* #region common */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 1.1rem;
 }
-.bg{
+
+.bg {
     display: flex;
     background-color: rgb(255, 255, 255);
     padding: 30px;
-    height: 12%;
     width: 100%;
 }
-.second-section, .third-section, .fourth-section, .fifth-section{
+
+.second-section,
+.third-section,
+.fourth-section,
+.fifth-section {
     display: flex;
-    height: 100%;
     width: 65%;
     margin: auto;
-    background-color: #ffffff;
-}   
+}
+
+.dflex {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* #endregion common */
 /* #region debug */
-.debug *{
+.debug * {
     border: 1px dashed black;
 }
-.debug .dblue .first-section{
+
+.debug .dblue .first-section {
     height: 300px;
 }
-.debug .white{
+
+.debug .lwood {
     height: 300px;
 }
-.debug .lwood{
-    height: 300px;
-}
-.debug .lwood2{
+
+.debug .lwood2 {
     height: 500px;
 }
-.debug .footer{
+
+.debug .footer {
     height: 350px;
+}
+
+.debug .first-section {
+    height: 300px;
+}
+
+.debug .second-section {
+    height: 300px;
+}
+
+.debug .bg-white {
+    height: 300px;
+}
+
+.debug .third-section {
+    height: 300px;
+}
+
+.debug .fourth-section {
+    height: 300px;
+}
+
+.debug .fifth-section {
+    height: 400px;
 }
 
 /* #endregion debug */
 /* #region header */
-.bg-heavenly{
+.bg-heavenly {
     background-color: var(--light-heavenly);
-    display: flex;
-    height: 60px;
+    padding: 10px;
 }
-.h-flex{
+
+.h-flex {
     margin: auto;
     display: flex;
-    background: var(--orange); 
+    background: var(--orange);
     width: 70%;
 }
-.logo{
+
+.logo {
     width: 25%;
     padding-left: 0.5rem;
 }
-.link{
+
+.link {
     width: 50%;
     text-align: center;
 }
-.login{
+
+.login {
     width: 25%;
     text-align: end;
     padding-right: 0.5rem;
 }
+
 /* #endregion header */
 /* #region main */
-.m-flex{
+.m-flex {
     flex-wrap: wrap;
-    display: flex;
 }
-.bg{
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    width: 100%;
-    
-}
+
 /* #endregion main */
 /* #region first section */
-.dblue{
+.dblue {
     background-color: var(--dark-blue);
     width: 100%;
     padding: 30px;
 }
-.first-section{
+
+.first-section {
     background-color: var(--pink);
     width: 60%;
     margin: auto;
 }
+
 /* #endregion first part main */
 /* #region second section */
- .white{
-    display: flex;
+.white {
     background-color: rgb(255, 255, 255);
     padding: 30px;
     width: 100%;
-    
-}  
-.lblue{
-    background-color: var(--light-blue);
-    width: 65%;;
 }
-.salmon{
-    background-color: var(--salmon);
+
+.lblue {
+    background-color: var(--light-blue);
+    width: 65%;
+}
+
+.salmon {
     width: 35%;
+    background-color: var(--salmon);
 }
 
 /* #endregion second part main */
 /* #region third section */
-.lwood{
+.bg-lwood {
     background-color: var(--light-wood);
-    display: flex;
     padding: 30px;
-    width: 100%;;
+    width: 100%;
 }
-.lblue2{
+
+.lblue2 {
     background-color: var(--light-blue);
     width: 35%;
 }
-.salmon2{
+
+.salmon2 {
     width: 65%;
     background-color: var(--salmon);
 }
+
 /* #endregion third section */
 /* #region fifth section */
-.lwood2{
+.bg-lwood2 {
     display: flex;
     background-color: var(--light-wood);
     padding: 30px;
     width: 100%;
 }
-.green{
+
+.green {
     background-color: var(--green);
     width: 100%;
 }
+
 /* #endregion fifth section */
+
 /* #region footer */
-.f-flex{
+.f-flex {
     display: flex;
     flex-wrap: wrap;
     border-bottom: 2px solid rgb(255, 0, 0);
     background-color: var(--black);
-} 
-.footer{
+}
+
+.footer {
     background-color: var(--black);
     padding: 30px;
     justify-content: center;
     border-bottom: 2px solid rgb(255, 0, 0);
 }
-.salmon3{
+
+.salmon3 {
     background-color: var(--salmon-2);
     width: 25%;
 }
-.acq{
+
+.acq {
     background-color: var(--acquamarine);
     width: 10%;
-}   
-.secondfooter{
+}
+
+.secondfooter {
     width: 62%;
     margin: auto;
     margin-top: 7px;
 }
 
-.sfooter{
+.sfooter {
     background-color: var(--bg-login);
     display: flex;
     justify-content: space-between;
@@ -190,7 +235,9 @@
     width: 100%;
     padding: 7px;
 }
-.second-logo, .button{
+
+.second-logo,
+.button {
     background-color: var(--login);
     font-size: 15px;
     width: 60px;
@@ -199,11 +246,14 @@
     margin-top: 3px;
     border: 6px dashed #00000000;
 }
-.second-logo{
+
+.second-logo {
     margin-left: -7px;
 }
-.button{
+
+.button {
     margin-right: -7px;
 
-}    
+}
+
 /* #endregion footer */
