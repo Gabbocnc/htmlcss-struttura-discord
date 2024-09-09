@@ -41,7 +41,21 @@
 .debug *{
     border: 1px dashed black;
 }
-
+.debug .dblue .first-section{
+    height: 300px;
+}
+.debug .white{
+    height: 300px;
+}
+.debug .lwood{
+    height: 300px;
+}
+.debug .lwood2{
+    height: 500px;
+}
+.debug .footer{
+    height: 350px;
+}
 
 /* #endregion debug */
 /* #region header */
@@ -79,7 +93,6 @@
     display: flex;
     background-color: rgb(255, 255, 255);
     padding: 30px;
-    height: 12%;
     width: 100%;
     
 }
@@ -87,34 +100,29 @@
 /* #region first section */
 .dblue{
     background-color: var(--dark-blue);
-    height: 250px;
     width: 100%;
     padding: 30px;
 }
 .first-section{
     background-color: var(--pink);
-    height: 100%;
     width: 60%;
     margin: auto;
 }
 /* #endregion first part main */
- /* #region second section */
+/* #region second section */
  .white{
     display: flex;
     background-color: rgb(255, 255, 255);
     padding: 30px;
-    height: 300px;
     width: 100%;
     
 }  
 .lblue{
     background-color: var(--light-blue);
-    width: 65%;
-    height: 100%;
+    width: 65%;;
 }
 .salmon{
     background-color: var(--salmon);
-    height: 100%;
     width: 35%;
 }
 
@@ -124,17 +132,14 @@
     background-color: var(--light-wood);
     display: flex;
     padding: 30px;
-    height: 300px;
     width: 100%;;
 }
 .lblue2{
     background-color: var(--light-blue);
-    height: 100%;
     width: 35%;
 }
 .salmon2{
     width: 65%;
-    height: 100%;
     background-color: var(--salmon);
 }
 /* #endregion third section */
@@ -143,13 +148,11 @@
     display: flex;
     background-color: var(--light-wood);
     padding: 30px;
-    height: 500px;
     width: 100%;
 }
 .green{
     background-color: var(--green);
     width: 100%;
-    height: 100%;
 }
 /* #endregion fifth section */
 /* #region footer */
@@ -161,8 +164,6 @@
 } 
 .footer{
     background-color: var(--black);
-    height: 350px;
-    width: 100%;
     padding: 30px;
     justify-content: center;
     border-bottom: 2px solid rgb(255, 0, 0);
@@ -176,7 +177,6 @@
     width: 10%;
 }   
 .secondfooter{
-    height: 100%;
     width: 62%;
     margin: auto;
     margin-top: 7px;
@@ -189,7 +189,6 @@
     align-items: center;
     width: 100%;
     padding: 7px;
-    height: 50px;
 }
 .second-logo, .button{
     background-color: var(--login);
